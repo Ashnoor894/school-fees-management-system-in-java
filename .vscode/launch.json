@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "▶ Run School Fee Management System (GUI)",
+            "request": "launch",
+            "mainClass": "fees.Main",
+            "workingDirectory": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "🧪 Run All Concepts Test",
+            "request": "launch",
+            "mainClass": "fees.TestAllConcepts",
+            "workingDirectory": "${workspaceFolder}"
+        }
+    ]
+}

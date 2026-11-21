@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "code-runner.executorMap": {
+        "java": "cd $workspaceRoot && javac -d bin src/fees/*.java src/fees/model/*.java src/fees/exception/*.java src/fees/thread/*.java src/fees/db/*.java src/fees/ui/*.java && java -cp bin fees.Main"
+    }
+}
